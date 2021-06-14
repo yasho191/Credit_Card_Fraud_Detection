@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T14:09:09.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ER5xx07BORxBAdYNivye" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-14T14:10:38.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="7rWwipq1O8OPePbctTBx" version="14.7.7" type="github">
   <diagram id="Xd7sYLWV2PVqRHPlahSe" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -58,13 +58,13 @@
             <mxRectangle x="580" y="200" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BIiXuPEVWdWX9yVx2fpi-17" value="Logistic Regression" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BIiXuPEVWdWX9yVx2fpi-16" vertex="1">
+        <mxCell id="BIiXuPEVWdWX9yVx2fpi-17" value="Logistic Regression" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="BIiXuPEVWdWX9yVx2fpi-16" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BIiXuPEVWdWX9yVx2fpi-18" value="SGD Classifier" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BIiXuPEVWdWX9yVx2fpi-16" vertex="1">
+        <mxCell id="BIiXuPEVWdWX9yVx2fpi-18" value="SGD Classifier" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="BIiXuPEVWdWX9yVx2fpi-16" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BIiXuPEVWdWX9yVx2fpi-19" value="Gaussian Naive Bayes&#xa;&#xa;Random Forest&#xa;&#xa;XGBoost Classifier&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BIiXuPEVWdWX9yVx2fpi-16" vertex="1">
+        <mxCell id="BIiXuPEVWdWX9yVx2fpi-19" value="Gaussian Naive Bayes&#xa;&#xa;Random Forest&#xa;&#xa;XGBoost Classifier&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="BIiXuPEVWdWX9yVx2fpi-16" vertex="1">
           <mxGeometry y="78" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="BIiXuPEVWdWX9yVx2fpi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;" parent="1" source="BIiXuPEVWdWX9yVx2fpi-23" target="BIiXuPEVWdWX9yVx2fpi-25" edge="1">
@@ -123,21 +123,14 @@
         <mxCell id="BIiXuPEVWdWX9yVx2fpi-37" value="Prediction Using Fusion Formula" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="250" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BIiXuPEVWdWX9yVx2fpi-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="208" y="480" as="targetPoint" />
-            <mxPoint x="248" y="560" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="228" y="560" />
-              <mxPoint x="228" y="480" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="1drK9k2tqe_FkUfN1002-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIiXuPEVWdWX9yVx2fpi-38" target="BIiXuPEVWdWX9yVx2fpi-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIiXuPEVWdWX9yVx2fpi-38" value="Prediction using Fusion Formula" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="250" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BIiXuPEVWdWX9yVx2fpi-39" value="Exit" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="86" y="440" width="120" height="80" as="geometry" />
+          <mxGeometry x="86" y="454" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1drK9k2tqe_FkUfN1002-2" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="BIiXuPEVWdWX9yVx2fpi-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
