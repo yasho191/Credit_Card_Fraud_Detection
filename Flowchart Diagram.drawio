@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T14:19:31.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="FtQFg6c6vbLe88cvhOUA" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-14T14:51:07.197Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="2xj1ZKaEvAOY3IJg9lne" version="14.7.7" type="github">
   <diagram id="Xd7sYLWV2PVqRHPlahSe" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -141,6 +141,12 @@
         </mxCell>
         <mxCell id="1drK9k2tqe_FkUfN1002-7" value="Handling Dataset Imbalance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="310" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1drK9k2tqe_FkUfN1002-10" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="550" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1drK9k2tqe_FkUfN1002-11" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="480" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
