@@ -10,18 +10,45 @@ Fraud is one of the most extensive ethical issues in the Financial (Banking) ind
 
 ### Flowchart of Proposed Method
 
-<img src="Assets/Pipeline.png"/>
+<img src="Assets/Pipeline.png" />
 
 ### Experimental Results
 
 1. Individual Model Performance on Random Oversampling
-<img src="Assets/RandomResult.png" height=400 width=500/>
+
+|      Model Name     |  |             | Random Oversampling        |              |           |
+|:-------------------:|:-------------------:|:-----------:|:------:|:------------:|:---------:|
+|                     |     F1-Score(%)     | Accuracy(%) | AUC(%) | Precision(%) | Recall(%) |
+| Logistic Regression |        92.68        |    92.78    |   97   |     90.96    |   94.57   |
+|    SGD Classifier   |        90.22        |    89.95    |   90   |     91.65    |   89.17   |
+|     Gaussian NB     |        86.76        |    87.98    |   95   |     78.75    |   96.59   |
+|    Random Forest    |        97.77        |    97.14    |   99   |      100     |   96.34   |
+|       XGBoost       |        98.59        |    98.47    |   99   |      100     |   97.38   |
+      
 2. Individual Model Performance on SMOTE Oversampling
-<img src="Assets/SMOTEResult.png"/>
+
+|      Model Name     |  |             | SMOTE Oversampling       |              |           |
+|:-------------------:|:------------------:|:-----------:|:------:|:------------:|:---------:|
+|                     |     F1-Score(%)    | Accuracy(%) | AUC(%) | Precision(%) | Recall(%) |
+| Logistic Regression |        96.52       |    96.52    |   99   |     96.03    |   97.06   |
+|    SGD Classifier   |        95.31       |    95.23    |   95   |     96.07    |   94.63   |
+|     Gaussian NB     |        88.13       |    89.19    |   98   |     80.28    |   97.68   |
+|    Random Forest    |        97.61       |    96.99    |   99   |     99.99    |   96.03   |
+|       XGBoost       |        97.38       |    97.03    |   99   |     99.99    |   95.29   |
+
+
 3. Hybrid Model Performance on Random and SMOTE Oversampling
-<img src="Assets/HybridResult.png"/>
+
+While creating the hybrid model a probability based weighted average function has been considered, this function takes into consideration the probailty of the prediction of each model and their respective f1-score to calculate the final prediction.
+
+|  Sampling Technique | F1-Score(%) | Accuracy(%) | AUC(%) | Precision(%) | Recall(%) |
+|:-------------------:|:-----------:|:-----------:|:------:|:------------:|:---------:|
+| Random Oversampling |    99.99    |    99.99    |  99.99 |      100     |   99.99   |
+|  SMOTE Oversampling |    99.73    |    99.73    |  99.73 |     99.66    |   99.79   |
+
 4. Confusion Matrix for Hybrid Models
-<img src="Assets/ConfusionMatrix.png"/>
+
+<img src="Assets/ConfusionMatrix.png" height=350 width=800/>
 
 ### Citation
 
