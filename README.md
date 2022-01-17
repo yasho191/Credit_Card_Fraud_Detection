@@ -24,5 +24,9 @@ Fraud is one of the most extensive ethical issues in the Financial (Banking) ind
 ### Citation
 
 ```py
-Y. Shinde, A. S. Chadha and A. Shitole, "Detecting Fraudulent Transactions using Hybrid Fusion Techniques," 2021 3rd International Conference on Electrical, Control and Instrumentation Engineering (ICECIE), 2021, pp. 1-10, doi: 10.1109/ICECIE52348.2021.9664719.
+Authors: Y. Shinde, A. S. Chadha and A. Shitole, 
+Paper Title: "Detecting Fraudulent Transactions using Hybrid Fusion Techniques," 
+Conference Name: 2021 3rd International Conference on Electrical, Control and Instrumentation Engineering (ICECIE), 
+Year: 2021, pp. 1-10, 
+DOI: doi: 10.1109/ICECIE52348.2021.9664719.
 ```
